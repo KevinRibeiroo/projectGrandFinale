@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    background-color: #F2F7FF;
+    color: #000000;
+    align-items: center;
+}
+
+.navbar{
+    width: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0% 10% 0% 40% ;
+}
+
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.div-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-formulario{
+    border: solid #3A8EF6;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.div-formulario h1{
+    color: #3A8EF6;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 25px;
+}
+
+.botao-registrar{
+    width: 130px;
+    border-radius: 20px;
+    background-color: #0018ee;
+    color: #fff;
+    font-size: 1.5rem;
+}
